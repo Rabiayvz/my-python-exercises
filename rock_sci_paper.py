@@ -18,7 +18,7 @@ def score_ev(user_point, comp_point):
     if user_point == 3:
         return 'You won the game!'
     elif comp_point == 3:
-        return 'I won the game! Cry about it!'
+        return 'I won the game!'
     else:
         return None
 
