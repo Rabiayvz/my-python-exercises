@@ -23,7 +23,7 @@ def score_ev(user_point, comp_point):
         return None
 
 
-def oyun():
+def game():
     global user_point, comp_point
     user_point = 0
     comp_point = 0
@@ -49,4 +49,4 @@ def oyun():
             break
 
 
-oyun()
+game()
